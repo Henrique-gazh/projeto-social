@@ -58,21 +58,24 @@ body {
     transform: translate(40px);
 }
 
-
 #links a {
-    display: inline-block;;
-    transition: transform 0.2s;
+    display: inline-block;
+    transition: transform 0.3s, border-color 0.5s;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    box-sizing: border-box;
 }
 
 #links img {
+    display: block;
     border-radius: 50%;
     object-fit: cover;
-    border: 1px solid black;
+    border: 2px solid black;
     width: 70px;
     height: 70px;
 }
 
 #links a:hover {
-    transform: scale(1.1);
+    border-color: rgba(255, 255, 255, 0.377);
+    transform: translate(-3px, -3px);
 }
-
