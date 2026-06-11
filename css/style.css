@@ -17,13 +17,14 @@ body {
     background-size: cover;
     width: 100%;
     height: 100vh;
-    min-height: 800px;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
 
 }
+
 #celular {
     background: url(../imagens/frame-iphone.png) center center no-repeat;
     background-size: cover;
@@ -37,7 +38,7 @@ body {
 #celular iframe {
     height: 600px;
     width: 320px;
-    bottom: none;
+    border: none;
     border-radius: 20px 20px 20px 20px;
 }
 
